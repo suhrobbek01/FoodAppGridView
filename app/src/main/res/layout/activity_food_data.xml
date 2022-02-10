@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodData">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_23sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/kerakli_mahsulotlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:text="Kerakli mahsulotlar"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:text="kjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintTop_toBottomOf="@id/kerakli_mahsulotlar" />
+
+        <TextView
+            android:id="@+id/steps_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taom tayyorlanish tartibi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients" />
+
+        <TextView
+            android:id="@+id/steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:text="kjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsgkjsdfhagfhsdgfhgdshfgsdjfhgakfhgadjfhgasfhgadhfgjhagfjkagfjgfjhsagfkjasgfjadsg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintTop_toBottomOf="@id/steps_tv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
